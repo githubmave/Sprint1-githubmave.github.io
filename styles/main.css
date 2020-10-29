@@ -7,6 +7,15 @@
 body{
 
     background-color: rgba(246, 250, 210, 0.795);
+
+    font-family: 'Rye', cursive;
+    margin: 0;
+   /* font-family: Arial, Helvetica, sans-serif;*/
+ /* background-color: LightPink;
+  display: flex;
+  align-items: center;
+  justify-content: flex-center;
+  flex-direction: column;*/
 }
 
     ul {
@@ -45,6 +54,32 @@ body{
         background-color:#07534f;
       }
 
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+
       .myDiv {
 
         border: 2px outset rgb(12, 19, 88);
@@ -56,7 +91,7 @@ body{
       h2 {
 
         color: rgba(51, 127, 199, 0.822);
-        font-size: 30pt;
+        font-size: 10pt;
       }
 
       .active {
